@@ -1,0 +1,336 @@
+== Die Roll convention. 
+The game uses common six-sided dice, eight-sided dice, ten-sided dice and twelve sided dice. Each die you need to roll is noted as ``d''. Unless otherwise noted otherwise, ``2d'', for example means _roll two dice and add the result together_. 
+
+== The basic game mechanic
+The basic game mechanic is the check. You throw 2d6, add the relevant skill and relevant modifier. A _natural_ result of *2* is always a failure, regardless of skills and modifiers. A _natural_ result of *12* is always a success, even in adverse situations. 
+
+#figure(
+table(
+  columns:2, stroke:(none), fill: (_,y) => if calc.odd(y) {green.lighten(90%)}, table.hline(y:1),
+  table.header[][Skill check Difficulties],
+  [6], [A relatively simple task that is still more than the PC would usually be expected to manage in their regular background. Anything easier than this isn't worth a skill check.],
+  [8], [A significant challenge to a competent professional that they'd still suceed at more often than not.],
+  [10],[Something too difficult to be expected of anyone but a skilled expert, and even they might fail.],
+  [12],[Only a true master could expect to carry this off with any degree of reliability.],  
+  [14+],[Only a true master could has any chance of achieving this at all, and even they will probably fail. ]
+))<table-roll>
+
+== Skills 
+Your hero's learned capabilities are skills, and every character has their share of them. Skills are measured in a rating from level-0 for competent practitioners and level-5 for one of the best in the world. Novice characters start with level-0 or level-1 in their skills.
+
+=== Skill list 
+- *Alchemy*:  the esoteric art of combining and creating alchemical and chemical substances. Also covers herbalism and poison-making.
+
+- *Animals*: the care and training of animals. Also covers general agriculture.
+
+- *Artifice*: creating and appraising magical items.
+
+- *Admin*:  keep an organization running smoothly, scribe things well, plan out logistics, identify incompetent or treacherous workers, analyze records or archives, or otherwise do things that an executive or middle-manager would need to do.
+
+- *Connect*: find or know people who are useful to your purposes, make friendships or social acquaintances, know who to talk to get favors or services, and call on the help or resources of organizations you belong to. Connect covers your PC’s ability to find the people you need, though convincing them to help may require more than this.
+
+- *Craft*: the ability to maintain, repair, and build mechanical devices of all sorts, from crossbows to cartwheels. Also covers lockpicking.
+
+- *Exert*: the ability to exert oneself physically. You may add the Athletics skill to appropriate physical characterisc rolls. This skill is never rolled unskilled.
+
+- *Heal*: treat wounds, cure diseases, neutralize poisons, diagnose psychological health issues, and otherwise tend to the wounds of body and mind. The Heal skill cannot cure lost hit points directly, but it’s a vital skill in stabilizing Mortally Wounded allies or ensuring clean recovery from grievous injuries.  
+
+- *Deception*: convincingly avoiding the truth and misleading other people.
+
+- *Investigation*: this skill combines keen observation, forensics, research, and detailed analysis. 
+
+- *Know*: know matters of history, geography, natural science, zoology, and other academic fields appropriate to a sage or scholar. While some sages might specialize in particular fields, most learned men and women in this age have a broad range of understanding, and will rarely be unable to even attempt to answer a question relevant to this skill. 
+
+- *Lead*: inspire others to follow your lead and believe in our plans and goals. Manage subordinates and keep them focused, loyal, and motivated in the face of danger or failure. A successful leader will keep their subordinate’s faith and confidence even when reason might make the leader’s plan appear questionable at best. 
+
+- *Magic*: cast or analyze magic and know things about famous mages or notable magical events. Classes that can’t cast spells obtain only intellectual and scholarly benefits from this skill.
+
+- *Notice*: notice small details, impending ambushes, hidden features, or concealed objects. Detect subtle smells, sounds, or other sensory input. Notice cannot be used simply to detect a lie, but keen attention can often discern a subject’s emotional state.
+
+- *Liaison*: the art and practice of negotiation and diplomacy in a myriad of social situations. This skill covers diplomatic meetings, haggling with merchants, or diffusing a situation before blades start flashing.
+
+- *Perform*: sing, act, dance, orate, or otherwise perform impressively for an audience. Compose music, plays, writings, or other works of performance art. Most performers will have a particular field they excel at, though polymaths might exist if the PC’s background is appropriate for such versatility.
+
+- *Pray*: perform the clerical rites of your religion, and be familiar with the gods, demons, and taboos of major and minor faiths, and identify iconography and persons of religious importance. Pray also helps you know the state of local faiths and the important persons in their hierarchies.
+
+- *Punch*: fight unarmed or with natural body weaponry. Punch, kick, grapple, or otherwise brawl without the benefit of man-made tools. 
+
+- *Recon*: scouting for danger and spotting threats.
+
+- *Ride*:  using animals for transportation, from riding a horse to driving a chariot to riding an elephant or dinosaur. 
+
+- *Sail*:  controlling and using boats and ships, including navigation.
+
+- *Shoot*: use it as a combat skill when using ranged weaponry, whether thrown weapons, bows, pistols, combat rifles, or heavy artillery.
+
+- *Stab*:  fight with melee weapons or throw a hurled weapon. Maintain and identify weaponry.
+
+- *Sneak*: training in being unseen and unheard. 
+
+- *Survive*: staying alive in the wilderness. This also covers _outdoor_ skills such as tracking, foragins, and fishing.
+
+- *Talk*: the art and practice of negotiation and diplomacy in a myriad of social situations. This skill covers diplomatic meetings, haggling with merchants, or diffusing a situation before blades start flashing. 
+
+- *Trade*:   Buy and sell at a profit, identify the worth of goods or treasures, deal with merchants and traders, find black-market goods and services, and know laws regarding smuggling and contraband.
+
+- *Work*: This skill is a catch-all for any profession that might not otherwise merit its own skill, such as a painter, lawyer, farmer, or herdsman. The precise skill it represents will vary with the PC’s background. 
+
+
+== Attributes score
+Characteristics describe your character's general talents and abilities. They serve as basic skills for tasks which every character can perform better or worse than others. 
+
+Throw 3d6 and assign the results in order. You may then change one attribute of your choice to 14 if you wish to ensure that you character is gifted in at least one way.
+
+- STR (Strength,Physical power and muscle. Governs lifting, breaking, melee combat, and feats of brute force.
+
+- AGI (Agility, reflexes, and precision. Used for dodging, ranged attacks, acrobatics, and delicate tasks like picking locks.
+
+- TGH (Toughness)
+Endurance, physical resilience, and ability to withstand harm. Governs health, resistance to damage, and stamina.
+
+- INT (Intelligence)
+Knowledge, reasoning, and analytical skill. Governs learning, recall of information, and solving puzzles.
+
+- WIL (Willpower)
+Mental fortitude, determination, and force of personality. Governs magic, persuasion, resisting fear, and problem-solving.
+
+- WIS (Wisdom)
+Awareness, insight, and connection to the world. Used for spotting traps, sensing danger, and interpreting omens.
+
+
+#figure(
+table(
+  columns:2, stroke:(none), fill: (_,y) => if calc.odd(y) {green.lighten(90%)}, table.hline(y:1),
+  table.header[3d6][*Attribute score*],
+  [3], [-2],
+  [4-7], [-1],
+  [8-13],[0],
+  [14-17],[+1],  
+  [18],[+2]
+), caption:[ Conversion table for attribute score])<table-roll>
+
+== Species
+In the world of Geltha, there are different species. Each one has a preferred habitat and a related Foci. Choose the species that suits you the most.  
+
+#table(
+  columns: (0.4fr, 0.5fr, 1fr),
+  inset: 6pt,
+  align: (left, left, left),
+  stroke: none,
+  fill: (_,y) => if calc.odd(y) {green.lighten(90%)}, table.hline(y:1),
+  [*Species*], [*Habitat*], [*Foci*],
+  [Athenderei], [Savage Hinterlands, Rural Village, Large City], [You are an Athanderei, a harmonious blend of human and daemon bloodlines from the ancient Athandi oasis. Your glowing eyes and mystical markings reflect your unique heritage, while your nomadic spirit and deep connection to both worlds guide your path. Like your people, you understand that true strength lies in the balance between mortal and supernatural realms. The Athanderei rolls saves with advantage against any mind affecting spell or ability. You can spend 1 HP as an on turn action and target an intelligent creature that is within 60m. If they consent, you forge a telepathic link with them that can convey thoughts, speech, and images even without a common language. The link last for the rest of the scene.While linked both of you have advantage in saves against mental spells or abilities.],
+  [Dreakar], [Savage Hinterlands, Rural Village, Large City], [You are a Dreakar, a proud descendant of dragon heritage marked by your colorful scales and piercing reptilian eyes. Your natural affinity for magic flows through your veins, while your culture's emphasis on honor and ritual shapes your path. Like your people, you embody both the noble warrior and the passionate artist, carrying the weight of your species' complex legacy. Gain a combat skill as bonus skill. Your scales protects you, for any purpose they count as a light armor. (-1 Damage)],
+  [Faceless], [Savage Hinterlands, Rural Village, Large City], [You are a Faceless, gifted with the mythical power to assume any humanoid form. Your rare ability, blessed by a deity of change, marks you as both extraordinary and feared. Whether you seek to right wrongs like the Sons of Athunde or simply find your place in the world, you walk a delicate path between concealment and truth, power and restraint. Gain Sneak or Liaison as a bonus skill. You gain the Faceless's face ability #footnote[While a Faceless is born with an
+appearance to match the dominant local human population, they are capable of shifting their features to match other groups of humanoids, provided they have met similar humanoids before. This transformation takes an hour of careful focus, after which the Faceless will look like an average member of that group of the same sex. Specific individuals cannot be impersonated this way. The transformation also imbues the Faceless with an innate ability to speak the group’s common language and an awareness of their common customs and laws. This ability is treated as a wholly mundane power and cannot be detected with conventional magic. This ability cost 2 HP each time it is used.]],
+  [Faethi], [Savage Hinterlands], [You are a Faethi, a secretive forest dweller descended from the original Aethelins. Your exceptional hunting skills and natural stealth make you a master of the wilderness, while your defensive magic keeps your small family group safe. Pick Sneak or Survive as a bonus skill. Once per scene, you can eat the flesh of a humanoid to get +1 bonus to a skill for the whole day, based on the humanoid background. You cannot get a total bonus to a skill greater than 5.],
+  [Fragmented], [Pick a reference species], [You are a Fragmented, an Aetherborn shaped by the echoes of the deceased. Your existence carries fragments of memories and desires not your own, granting you unique insights into mortal life. Though born from great magic or sacrifice, your borrowed experiences and adaptable nature help you forge your own path in a world both familiar and strange. You do not need to eat, sleep, drink, or breathe, though you still require eigth hours of comfortable quiet to regain your HP. You can be healed by conventional methods, and are immune to poison and diseases. You gain a bonus skill of your choice.],
+  [Ghaerelin], [Rural Village, Large City], [You are a Ghaerelin, a pale-skinned conqueror of the corrupted forest. Your military discipline and territorial instincts make you a fearsome defender of your clan's domain. Despite your aggressive nature, you maintain unwavering loyalty to your people. Pick any Combat skill as a bonus skill. All Ghaerelin are good at hurting things. They gain a +1 bonus to their normal attack bonus.],
+  [Goliath], [Savage Hinterlands, Rural Village], [You are a Goliath, descended from the ancient Khoradin bloodline. Your impressive stature and natural intelligence mark you as a child of the mountains, while your warrior heritage and deep sense of honor guide your actions. Like your people, you understand that true strength comes from protecting your tribe and living in harmony with the natural world. You gain Exert as a bonus skill. Goliath are tough. Whenever you roll your HP, the first die roll always counts as the maximum.],
+  [Half Daemon], [Pick a reference species], [You are a Half-Daemon, marked by daemonic corruption that sets you apart from your original species. Whether revered or shunned, your mutations have shaped both your abilities and your place in society. Your body processes sustenance differently than others, converting food into raw magical potential. You gain one between Survive, Sneak or Recon as a bonus skill. As an Half Deamon, you get 2 mutation points two spend in mutations. After you have spent your points, pick one attribute with modifer greater than -2, it suffers a -1 penalty.],
+  [Human], [Savage Hinterlands, Rural Village, Large City], [You are a Human, born into the diverse tapestry of Geltha's cultures. Your adaptable nature and drive for achievement make you equally at home in bustling cities or untamed wilderness. Whether seeking glory, justice, or enlightenment, your convictions fuel your journey and shape your destiny. Choose one of the following to gain as bonus skills: Connect, Notice, Shoot, Stab, Trade. Humans are uncommonly lucky: once per day, as an Instant action, turn a failed save into a success. ],
+  [Khor], [Savage Hinterlands, Rural Village], [You are a Khor, carrying the proud legacy of the Khoradin people to the shores of Eyoris. Your distinctive blue-grey skin and dual hearts set you apart, while your mastery of silent communication and structured traditions ground you. As with all your people, you find strength in order and community, carrying ancient wisdom in your every gesture. Gain Exert or Sneak as a bonus skill. Once per scene, as an On Turn action, double your ground movement rate for the round.],
+  [Lizaerdgar], [Savage Hinterlands, Rural Village, Large City], [You are a Lizeardgar, a cunning descendant of ancient reptilian bloodlines. Your armored scales and natural agility make you equally at home scaling walls or swimming depths, while your sharp mind drives you toward leadership and discovery. Like all your kind, you balance careful logic with bursts of passionate curiosity. Your scales protects you, for any purpose they count as a light armor. (-1 Damage)],
+  [Li' Nat], [Savage Hinterlands, Rural Village, Large City], [You are a Li'Nat, a fearless protector of the underground realms. Your compact, muscular form and keen senses make you a natural warrior in the darkness below, while your unwavering loyalty to clan and duty drives your every action. Like all your people, you find strength in community and purpose in defending those who depend on you. You gain Shoot or Stab as a bonus skill. Given your ability in combat, you add +1 to your attack roll.],
+  [Org], [Savage Hinterlands], [You are an Org, born in the harsh environments, you learned how to survive. As an Org, your clan and allies are what matters, and although you do not desire war, you are ready to unleash your fury on anyone who threatens your clan and allies. You gain Punch or Exert as a bonus skill. You are immune to common diseases, and once per day you can continue acting for 1 full round after falling to zero hit points, provided you are not hopelessly mangled.],
+  [R'aven], [Savage Hinterlands, Rural Village, Large City], [You are a R'aven, born of ancient experiments that stripped your wings but gifted you with remarkable adaptability. Though unable to speak, you've mastered the art of silent communication through gesture and scent. Your keen understanding of other cultures makes you equally suited to blending in or standing out, whether as a skilled negotiator or cunning thief. Gain Sneak as a bonus skill. Once per scene, your adaptive nature allows you to study and mimic another creature's successful action, gaining +1 to a skill check or +1 to an attack roll as an Instant action. You cannot speak but are immune to effects that rely on verbal communication. You otherwise function as a normal humanoid and can communicate effectively through gestures and expressions.],
+  [Saethi], [Savage Hinterlands, Rural Village, Large City], [You are a Saethi, shaped by the corrupted mines of your ancestors. Your clan loyalty and unique magical attunement set you apart, while the trials of your people's past have forged an unbreakable community bond. You gain Survive as a bonus skill. You can see clearly in the dark out to 20m.],
+  [U'Nat], [Savage Hinterlands, Rural Village, Large City], [You are a U'Nat, a master artisan of the deep caverns. Your sensitive hands and natural engineering instincts guide you in shaping stone and metal, while your connection to clan and community inspires your creations. Like your kin, you understand that true craftsmanship serves not just beauty, but the survival and prosperity of your people. You gain one between Craft, Sneak or Survive. You can see clearly in the dark out to 20m.],
+)
+
+== Backround 
+
+Your past has a clear influece on you. Roll on the Family status/Family wealth table.
+Based on your habitat, choose one of the following skills:
+
+- Savage Hinterlands: Notice, Survive, Exert
+- Rural Village: Animals, Ride, Work
+- Large City: Craft, Connect, Talk
+
+If you choose to roll on the Hardship table, you gain an additional skill related to your habitat.
+#figure(caption: [Savage Hinterlands - Family Status/Family Wealth], table(stroke:none,fill: (_,y) => if calc.odd(y) {green.lighten(90%)},align: center,columns:5,table.hline(y: 1),table.header[][][][*Family Status (d6)*][],
+[],[*Wealth(1d12)*],[*Low(1-2)*],[*Middle(3-4)*],[*High(5-6)*],
+[Poor],[1],[Foragers],[Tribal Warriors],[Chieftains],
+[Poor],[2],[Nomads],[Wandering Shamans],[Elder Mystics],
+[Poor],[3],[Scavengers],[Hunters],[Beast Tamers],
+[Poor],[4],[Outcasts],[Herbalists],[Spirit Guides],
+[Middle],[5],[Raiders],[Skilled Trackers],[Clan Leaders],
+[Middle],[6],[Camp Followers],[Survivalists],[Respected Shamans],
+[Middle],[7],[Tanners],[Bowyers],[Tribal Council Members],
+[Middle],[8],[Trappers],[Spirit Channelers],[Renowned Warriors],
+[Rich],[9],[Mercenary Scouts],[Artifact Traders],[Great Chieftains],
+[Rich],[10],[Adventurers],[Legendary Hunters],[Mystic Elders],
+[Rich],[11],[Treasure Seekers],[Trade Envoys],[High Shamans],
+[Rich],[12],[Beast Trainers],[Tribal Diplomats],[Warlords]
+))<table-savage-hinterlands>
+
+#figure(caption: [Savage Hinterlands - Hardships], table(stroke:none,fill: (_,y) => if calc.odd(y) {green.lighten(90%)},align: center,columns:2,table.hline(y: 1),table.header[*1d20*][*Hardship*],
+[1],[A childhood illness left you frail. -1 Constitution],
+[2],[A hunting wound left you with a limp. -1 Dexterity],
+[3],[Strange landscapes tax your stamina. -1 Constitution in foreign environments],
+[4],[You struggle with foreign navigation. Roll 1d6 instead of 2d6 for Survival checks],
+[5],[Endless labor distracted you from learning. -1 Intelligence],
+[6],[Poor nutrition in harsh seasons stunted your growth. -1 Strength],
+[7],[Exposure to harsh weather weakened your constitution. -1 Constitution],
+[8],[Frequent injuries left you slower than others. -1 Dexterity],
+[9],[You are easily identified as a savage native. Disguises fail quickly],
+[10],[Foreign climates leave you lethargic. -1 Dexterity],
+[11],[You feel uneasy with advanced tools. -1 Willpower in civilized areas],
+[12],[Struggling with new customs, you make poor decisions. -1 Wisdom],
+[13],[Always the runt of the group, you lack strength. -1 Strength],
+[14],[A wild beast attack left you scarred. -1 Willpower],
+[15],[You are clumsy with hunting tools. Roll 1d6 instead of 2d6 for Shooting checks],
+[16],[A clan feud marks you for death by rivals.],
+[17],[Your senses have dulled from hardship. -1 Wisdom],
+[18],[A feral power sapped your vitality. Lose 3 attribute points of your choice],
+[19],[Fear of spirits hinders your calm. -2 to saves against spiritual effects],
+[20],[Crude tools confuse you. -2 to saves against advanced equipment effects]
+))<table-savage-hinterlands>
+
+
+#figure(caption: [Rural Village - Family Status/Family Wealth], table(stroke:none,fill: (_,y) => if calc.odd(y) {green.lighten(90%)},align: center,columns:5,table.hline(y: 1),table.header[][][][*Family Status (d6)*][],
+[],[*Wealth(1d12)*],[*Low(1-2)*],[*Middle(3-4)*],[*High(5-6)*],
+[Poor],[1],[Beggars],[Tenant Farmers],[Wealthy Farmers],
+[Poor],[2],[Vagrants],[Village Laborers],[Local Elders],
+[Poor],[3],[Servants],[Millers],[Village Healers],
+[Poor],[4],[Outcasts],[Beekeepers],[Clergy],
+[Middle],[5],[Shepherds],[Blacksmiths],[Village Chiefs],
+[Middle],[6],[Woodcutters],[Bakers],[Clerics or Monks],
+[Middle],[7],[Fisherfolk],[Carpenters],[Respected Traders],
+[Middle],[8],[Brickmakers],[Traders],[Scribes],
+[Rich],[9],[Horse Breeders],[Town Merchants],[Landed Gentry],
+[Rich],[10],[Grain Traders],[Physicians],[High Priests],
+[Rich],[11],[Large Farm Owners],[Village Leaders],[Noble Representatives],
+[Rich],[12],[Wine Makers],[Grain Exporters],[Regional Officials]
+))<table-rural-village>
+
+#figure(caption: [Rural Village - Hardships], table(stroke:none,fill: (_,y) => if calc.odd(y) {green.lighten(90%)},align: center,columns:2,table.hline(y: 1),table.header[*1d20*][*Hardship*],
+[1],[A village sickness weakened you. -1 Constitution],
+[2],[A farming accident left you hobbled. -1 Dexterity],
+[3],[Outsiders' food and drink upset your system. -1 Constitution in foreign areas],
+[4],[You struggle with advanced tools. Roll 1d6 instead of 2d6 for Craft checks],
+[5],[Endless farming hours left little time for study. -1 Intelligence],
+[6],[A meager diet stunted your intellect. -1 Intelligence],
+[7],[A famine weakened your body. -1 Strength],
+[8],[Manual labor sapped your energy. -1 Constitution],
+[9],[You are always recognized as a villager. Disguises fail quickly],
+[10],[Foreign machinery confuses you. -1 Dexterity when operating machines],
+[11],[You feel out of place in cities. -1 Willpower in urban areas],
+[12],[Naivety leaves you prone to mistakes. -1 Wisdom],
+[13],[Always weaker than others, you lack strength. -1 Strength],
+[14],[A childhood fight left you scarred. -1 Willpower],
+[15],[You're clumsy with carts and wagons. Roll 1d6 instead of 2d6 for Drive checks],
+[16],[A feud with a neighboring village marks you for death.],
+[17],[Your senses have dulled from village life. -1 Wisdom],
+[18],[A traumatic event drained your vitality. Lose 3 attribute points of your choice],
+[19],[Old tales of spirits leave you easily unnerved. -2 to saves against mental effects],
+[20],[Foreign tools and gadgets confuse you. -2 to saves against magical item effects]
+))<table-rural-village>
+
+
+#figure(caption: [Large City - Family Status/Family Wealth], table(stroke:none,fill: (_,y) => if calc.odd(y) {green.lighten(90%)},align: center,columns:5,table.hline(y: 1),table.header[][][][*Family Status (d6)*][],
+[],[*Wealth(1d12)*],[*Low(1-2)*],[*Middle(3-4)*],[*High(5-6)*],
+[Poor],[1],[Street Urchins],[Day Laborers],[Skilled Workers],
+[Poor],[2],[Prostitutes],[Market Vendors],[Minor Clergy],
+[Poor],[3],[Pickpockets],[Entertainers],[Guild Apprentices],
+[Poor],[4],[Beggars],[Artisans],[Scholars],
+[Middle],[5],[Petty Criminals],[Shopkeepers],[Guild Masters],
+[Middle],[6],[Dockhands],[Bakers],[Respected Clergy],
+[Middle],[7],[Guards],[Local Traders],[Town Officials],
+[Middle],[8],[Street Performers],[Scribes],[Wealthy Merchants],
+[Rich],[9],[Courtesans],[Guild Leaders],[City Governors],
+[Rich],[10],[Moneylenders],[Physicians],[High Priests],
+[Rich],[11],[Landed Nobility],[Trade Magnates],[Council Members],
+[Rich],[12],[Spymasters],[Foreign Diplomats],[Royalty]
+))<table-large-city>
+
+#figure(caption: [Large City - Hardships], table(stroke:none,fill: (_,y) => if calc.odd(y) {green.lighten(90%)},align: center,columns:2,table.hline(y: 1),table.header[*1d20*][*Hardship*],
+[1],[A childhood illness left you frail. -1 Constitution],
+[2],[An industrial accident left you limping. -1 Dexterity],
+[3],[Pollution strains your stamina. -1 Constitution in natural settings],
+[4],[Advanced systems confuse you. Roll 1d6 instead of 2d6 for Program checks],
+[5],[Grueling factory work stunted your learning. -1 Intelligence],
+[6],[Childhood poverty hindered your education. -1 Intelligence],
+[7],[Malnutrition from slum life weakened your body. -1 Strength],
+[8],[Exhausting work left you physically drained. -1 Constitution],
+[9],[You are easily identified as a city native. Disguises fail quickly],
+[10],[You struggle with rural environments. -1 Dexterity in non-urban areas],
+[11],[You feel awkward in rural social settings. -1 Willpower in villages],
+[12],[Quick decisions in new settings often fail you. -1 Wisdom],
+[13],[You were always outmatched by your peers. -1 Strength],
+[14],[A violent encounter left you visibly scarred. -1 Willpower],
+[15],[You're terrible with vehicles. Roll 1d6 instead of 2d6 for Drive checks],
+[16],[A gang rivalry makes you a target for violence.],
+[17],[City noise has dulled your senses. -1 Wisdom],
+[18],[A psychic event drained your vitality. Lose 3 attribute points of your choice],
+[19],[Advanced tech leaves you nervous. -2 to saves against psionics],
+[20],[Complex tools baffle you. -2 to saves against foreign technology effects]
+))<table-large-city>
+
+== Careers
+Characters start off at the age of 14. Then they grow through the character generation game. Each career table presents the various throws needed for character generation. #strong[Note that the total sum of a character's skill can never exceed the INT characteristic plus 6.]
+
+=== Career procedure
+
++ #strong[Choose a Career:] Try to enteer a career. If you succeed, begin the career. If you fail, roll a 2d6 and pick a career accordingly to the roll. _(1-2, Vagabond, 3-11 Commoner, 11 Noble)_.
+
++ *Basic Training*: You gain Skill-0 in all six Service Skills of your career. 
+
++ *Resolve your term of service*:
+  + *Survival check*: If you fail, roll on the mishap table.
+  + *Skill Table*: Roll once on one of the skill tables associated with that carrer to gain one level of a skill. Acquired skill levels are cumulative. On your first term only, roll twice and gain two skills. Note that you may roll on the Advanced Education table if your INT is over 12. 
+  + *Advancement check*: Make and Advancement check. If you succeed, you gain one rank and gain an additional skill roll on any table. 
+
+  + *Rank skill*: If promoted, some ranks have skills associated with that rank. Gain that skill rank, if eligible. 
+
+  + *Aging*: If your character has completed their fourth term or later, (ages 30 and up), check for aging.
+    #figure(caption:[Aging],table(stroke:none,fill:(_,y)=>if calc.odd(y) {green.lighten(90%)},align:center,columns:2,table.hline(y:1),table.header[2d6][Effects of Aging],
+    [-4],[Reduce two physical characteristics by 3 and one mental characteristic by 2],
+    [-3],[Reduce one physical characteristic by 3 and one mental characteristic by 2],
+    [-2],[Reduce three physical characteristics by 1],
+    [-1],[Reduce two physical characteristics by 1],[0],[Reduce one physical characteristic by 1],[+1 or higher],[No effect]))
+
+  + *Events*: Roll 2d6 on the relevant Events table. 
+
+  + *Re-Enlistment*: Make a check for Re-Enlistment If you fail, you either finish your career and go to Step-4, or you can attempt to re-enlist in a different career#footnote[When you attempt the change add a malus equal to -1 times the previous career terms. You do not gain Skill-0 in the service skills.]. If you succeed, you may choose to re-enlist, or you can voluntarily terminate your career. 
+
+  + *Additional term of service*: You must retire after 7 terms of service unless you throw a natural "12", in which case, you must retire at the end of the 8th term of service. 
+
++ *Muster out*: Once you complete your career, roll for Mustering out benefits.  Each term of service you completed allows you one roll on one of the two Mustering out tables: Gold or Material. You gain one bonus roll if you are rank 4, two if you are rank 5, or three if you are rank 6. Character of rank 5 and 6 get a +1 bonus when rolling on the Material benefits table. No more than 3 rolls may be made on the Gold Benefit table.
+
+=== Careers 
+
+==== Barbarian 
+
+#figure(
+  #table(
+    columns: 6,
+    align: center,
+    stroke: none,
+    fill: (_, y) => if calc.odd(y) { green.lighten(90%) },
+    [You were a savage warrior of the wilderness, as untamed and as resilient as the nature you lived in],
+    [], [], [*Qualification*], [], [],
+    [], [], [], [*Survival*], [], [],
+    [], [], [], [*Advancement*], [], [],
+    [], [], [], [*Re-Enlistment*], [], [],
+    [], [], [], [*Rank*], [], [],
+    [], [], [], [*Mustering Out Benefits*], [], [],
+    [*Rank*], [*Title*], [*Skill or Bonus*], [*1d6*], [*Gold*], [*Materials*],
+    [0], [Brave], [Survive], [1], [10], [Weapon],
+    [1], [Tribesman], [], [2], [20], [Armor],
+    [2], [Chief], [], [3], [30], [+1 TGH],
+    [3], [Chieftain], [Leadership], [4], [50], [Weapon],
+    [4], [Warlord], [], [5], [100], [Hound],
+    [5], [Thane], [], [6], [150], [Mount],
+    [6], [Jarl], [], [7], [500], [Retainer],
+    [*Skills and Training*], [], [], [], [], [],
+    [*1d6*], [*Personal Development*], [*Service*], [*1d6*], [*Specialist*], [*Advanced Education*],
+    [1], [+1 Any Stat], [Animals], [1], [Survive], [Craft],
+    [2], [+2 Physical], [Stab], [2], [Sneak], [Heal],
+    [3], [+2 Physical], [Shoot], [3], [Sail], [Lead],
+    [4], [+2 Mental], [Exert], [4], [Recon], [Liaison],
+    [5], [Exert], [Riding], [5], [Stab], [Survive],
+    [6], [Any skill], [Survive], [6], [Shoot], [Admin],
+  )
+)
+

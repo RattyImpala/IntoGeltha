@@ -1,0 +1,164 @@
+\documentclass[itdr]{subfiles}
+
+\begin{document}
+
+%\noindent
+%\begin{minipage}{\textwidth}
+\toc[2] % Table of Contents
+\hypersetup{bookmarksdepth=5} % paragraph level depth bookmarks (default)
+%\end{minipage}
+
+\faHandPointUp
+
+\vspace{1ex}
+
+\begin{minipage}{\textwidth}
+\begin{lstlisting}
+\toc[2] % Table of Contents
+\hypersetup{bookmarksdepth=5} % paragraph level depth bookmarks (default)
+\end{lstlisting}
+\end{minipage}
+
+\vfill
+
+\begin{minipage}{\textwidth}
+\begin{lstlisting}
+\noindent
+\begin{minipage}{\textwidth}\begin{center}\fnsize
+	``\title'' and {\ttfamily bestiary.csv} by \author\\
+	are licensed under the \license.\\
+	\corefiles{} files are licensed under the \corelicense.
+\end{center}\end{minipage}
+\end{lstlisting}
+\end{minipage}
+
+\faHandPointDown
+
+\noindent
+\begin{minipage}{\textwidth}\begin{center}\fnsize
+	``\title'' and {\ttfamily bestiary.csv} by \author\\
+	are licensed under the \license.\\
+	\corefiles{} files are licensed under the \corelicense.
+\end{center}\end{minipage}
+
+\clearpage
+
+\chapterx{Unnumbered Chapter}
+\label{ch:unnumbered}
+
+\righttext{\textbackslash toc[0]}
+
+\begin{lstlisting}
+\chapter[toc-title]{Title}
+	% numbered
+\chapterx[toc-title]{Title}
+	% unnumbered
+\chapterx*{title}
+	% unnumbered, no TOC entry
+
+\chapterstr[toc-title]{Title}
+	% straight, numbered
+\chapterstrx[toc-title]{Title}
+	% straight, unnumbered
+\chapterstr*{Title}
+	% straight, unnumbered, no TOC entry
+
+\label{ch:title}		% chapter label
+\end{lstlisting}
+
+\section{Section Example}
+\rightbox{\textbackslash toc[1]}
+\begin{lstlisting}
+\section{Title}
+\end{lstlisting}
+
+\subsection{Subsection Example}
+\rightbox{\textbackslash toc[2]}
+\begin{lstlisting}
+\subsection{Title}
+\end{lstlisting}
+
+\subsubsection{Subsubsection Example}
+\rightbox{\textbackslash toc[3]}
+\begin{lstlisting}
+\subsubsection{Title}
+\end{lstlisting}
+
+\paragraphsection{Paragraph Section Example}
+\rightbox{\textbackslash toc[4]}
+Maximum recommended ToC depth.
+
+\begin{lstlisting}
+\paragraphsection{Title}
+\end{lstlisting}
+
+\paragraph{Paragraph Example}
+\rightbox{\textbackslash toc[5]}
+\begin{lstlisting}
+\paragraph{Title}
+\end{lstlisting}
+
+\iparagraph{Indexed Paragraph}
+\rightbox{\textbackslash toc[5]}
+\begin{lstlisting}
+\iparagraph{Indexed Paragraph}
+\end{lstlisting}
+
+\paragraphsubsection{Paragraph Subsection Example:} text. \righttext{\textbackslash toc[6]}
+
+\begin{lstlisting}
+\paragraphsubsection{Title}
+\end{lstlisting}
+
+\subparagraph{Subparagraph Example:} text. \righttext{\textbackslash toc[7]}
+
+\noindent
+\begin{lstlisting}
+\subparagraph{Title}
+\end{lstlisting}
+
+\break
+
+\section[Second Section]{Different Title in TOC}
+
+\faHandPointUp~In TOC this will be shown as a ``Second Section''.
+
+\begin{lstlisting}
+\section[Second Section]{Different Title in TOC}
+\end{lstlisting}
+
+\vfill
+
+\section{Rooms}
+
+\room{1}{First Room}
+
+\lipsum[66]
+
+\begin{lstlisting}
+\room{1}{First Room}
+\end{lstlisting}
+
+\room{2}{Second Room}
+
+\dimensions{40}{50}[10]\\
+\lipsum[66]
+
+\begin{lstlisting}
+\room{2}{Second Room}
+
+\dimensions{40}{50}[10]\\
+\end{lstlisting}
+
+\room[\subsubsection]{2a}{Sub-Room}
+
+\dimensions[~squares]{3}{2}{}\\
+\lipsum[66]
+
+\begin{lstlisting}
+\room[\subsubsection]{2a}{Sub-Room}
+
+\dimensions[~squares]{3}{2}\\
+\end{lstlisting}
+
+\end{document}
