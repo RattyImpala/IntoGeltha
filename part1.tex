@@ -34,10 +34,10 @@ result of $\mathbf{2}$ is always a failure, regardless of skills and modifiers. 
 & \textbf{Skill Check Difficulties} \\
 \hline
 6 & A relatively simple task that is still more than the PC would usually be expected to manage in their regular background. Anything easier than this isn't worth a skill check. \\
-8 & A significant challenge to a competent professional that they'd still suceed at more often than not. \\
+8 & A significant challenge to a competent professional that they'd still succeed at more often than not. \\
 10 & Something too difficult to be expected of anyone but a skilled expert, and even they might fail. \\
 12 & Only a true master could expect to carry this off with any degree of reliability. \\
-14+ & Only a true master could has any chance of achieving this at all, and even they will probably fail. \\
+14+ & Only a true master could have any chance of achieving this at all, and even they will probably fail. \\
 \hline
 \caption{Skill Check Difficulty Table}
 \label{table:skill-checks}
@@ -129,196 +129,74 @@ Throw 3d6 and assign the results in order. You may then change one attribute of 
 \section{Species} % (fold)
 \label{sec:species}
 In the world of Geltha, there are different species. Each one has a trait. Choose the species that suits you the most.
-
+\begin{longtable}{p{0.3\textwidth}p{0.6\textwidth}}
+\hline
+\textbf{Species} & \textbf{Trait} \\
+\hline
+Human &   You are a Human, born into the diverse tapestry of Geltha's cultures. Your adaptable nature and drive for achievement make you equally at home in bustling cities or untamed wilderness. Whether seeking glory, justice, or enlightenment, your convictions fuel your journey and shape your destiny. Choose one of the following to gain as bonus skills: Connect, Notice, Shoot, Stab, Trade. As a human, luck can be on your side sometimes; as an Instant action, you can roll with advantage. Keep in mind that this stroke of luck can also go in the other direction. The DM can assign a malus to one of your subsequent rolls. \\ 
+Dreathar & You are a Draethar, a resilient adventurer of Geltha’s sun-scorched plains. Your high-density muscles and extreme endurance make you a natural explorer, capable of traversing vast distances without rest. Whether tracking herds, foraging for resources, or venturing into uncharted lands, your adventurous spirit and physical prowess are unmatched. Choose one of the following to gain as a bonus skill: Survive, Exert, Notice, Ride, or Connect. You are physically tough; whenever you roll your hit
+dice to determine your maximum hit points, the first
+die you roll always counts as the maximum. Further
+hit dice that roll a 1 are rerolled. \\ 
+Athandarei & You are an Athandarei mutated to sense and reflect emotional energy. You have advantage on any check due to mind-affecting spells or abilities. Once per day, you can push yourself beyond your limits. For the rest of the scene, you gain a +2 bonus to any check made this way, but you must pay 1 HP for each check.\\ 
+Mnemora & You belong to the Mnemora, a species burdened yet endowed with the unique power to assimilate memories from the flesh of other humanoid beings. As such, choose one of the following to gain as a bonus skill: Know, Recon, Survive, Animal. Once per day, as an Instant action, you may consume the flesh of a humanoid to receive a +1 bonus for that day on a skill check where the humanoid was proficient. You can use this ability also to peek into its memories. \\
+Umbrathi & You are an Umbrathi, a creature of darkness; you prefer to live in a dark place. Light is your enemy, and trust is your currency. Choose one of the following to gain as a bonus skill: Craft, Survive, Recon, Sneak.  You can see clearly in the dark out to sixty feet.  \\ 
+\hline 
+\end{longtable}
 
 \section{Background}
-Your past has a clear influence on you. Roll on the Family status/Family Wealth table.
-Based on your habitat, choose one of the following skills:
+Your past shapes who you are. Choose your species to determine your Skills and Traits.
 
-\begin{itemize}
-\item Savage Hinterlands: Notice, Survive, Exert
-\item Rural Village: Animals, Ride, Work
-\item Large City: Craft, Connect, Talk
-\end{itemize}
+You begin your career at age 14. First, select your initial career. Spend \(1d6\) years in it, then roll \(1d6\) to determine an event:
 
-\begin{longtable}{ccccc}
-\hline
-& \textbf{Wealth(1d12)} & \textbf{Low(1-2)} & \textbf{Middle(3-4)} & \textbf{High(5-6)} \\
-\hline
-Poor & 1 & Foragers & Tribal Warriors & Chieftains \\
-Poor & 2 & Nomads & Wandering Shamans & Elder Mystics \\
-Poor & 3 & Scavengers & Hunters & Beast Tamers \\
-Poor & 4 & Outcasts & Herbalists & Spirit Guides \\
-Middle & 5 & Raiders & Skilled Trackers & Clan Leaders \\
-Middle & 6 & Camp Followers & Survivalists & Respected Shamans \\
-Middle & 7 & Tanners & Bowyers & Tribal Council Members \\
-Middle & 8 & Trappers & Spirit Channelers & Renowned Warriors \\
-Rich & 9 & Mercenary Scouts & Artifact Traders & Great Chieftains \\
-Rich & 10 & Adventurers & Legendary Hunters & Mystic Elders \\
-Rich & 11 & Treasure Seekers & Trade Envoys & High Shamans \\
-Rich & 12 & Beast Trainers & Tribal Diplomats & Warlords \\
-\hline
-\caption{Savage Hinterlands - Family Status/Family Wealth}
-\label{table:savage-hinterlands}
-\end{longtable}
-
-% Savage Hinterlands - Hardships
-\begin{longtable}{p{0.1\textwidth}p{0.9\textwidth}}
-\hline
-\textbf{1d20} & \textbf{Hardship} \\
-\hline
-1 & A childhood illness left you frail. -1 Constitution \\
-2 & A hunting wound left you with a limp. -1 Dexterity \\
-3 & Strange landscapes tax your stamina. -1 Constitution in foreign environments \\
-4 & You struggle with foreign navigation. Roll 1d6 instead of 2d6 for Survival checks \\
-5 & Endless labor distracted you from learning. -1 Intelligence \\
-6 & Poor nutrition in harsh seasons stunted your growth. -1 Strength \\
-7 & Exposure to harsh weather weakened your constitution. -1 Constitution \\
-8 & Frequent injuries left you slower than others. -1 Dexterity \\
-9 & You are easily identified as a savage native. Disguises fail quickly \\
-10 & Foreign climates leave you lethargic. -1 Dexterity \\
-11 & You feel uneasy with advanced tools. -1 Willpower in civilized areas \\
-12 & Struggling with new customs, you make poor decisions. -1 Wisdom \\
-13 & Always the runt of the group, you lack strength. -1 Strength \\
-14 & A wild beast attack left you scarred. -1 Willpower \\
-15 & You are clumsy with hunting tools. Roll 1d6 instead of 2d6 for Shooting checks \\
-16 & A clan feud marks you for death by rivals. \\
-17 & Your senses have dulled from hardship. -1 Wisdom \\
-18 & A feral power sapped your vitality. Lose 3 attribute points of your choice \\
-19 & Fear of spirits hinders your calm. -2 to saves against spiritual effects \\
-20 & Crude tools confuse you. -2 to saves against advanced equipment effects \\
-\hline
-\caption{Savage Hinterlands - Hardships}
-\label{table:savage-hardships}
-\end{longtable}
-
-% Rural Village - Family Status/Family Wealth
-\begin{longtable}{ccccc}
-\hline
-& \textbf{Wealth(1d12)} & \textbf{Low(1-2)} & \textbf{Middle(3-4)} & \textbf{High(5-6)} \\
-\hline
-Poor & 1 & Beggars & Tenant Farmers & Wealthy Farmers \\
-Poor & 2 & Vagrants & Village Laborers & Local Elders \\
-Poor & 3 & Servants & Millers & Village Healers \\
-Poor & 4 & Outcasts & Beekeepers & Clergy \\
-Middle & 5 & Shepherds & Blacksmiths & Village Chiefs \\
-Middle & 6 & Woodcutters & Bakers & Clerics or Monks \\
-Middle & 7 & Fisherfolk & Carpenters & Respected Traders \\
-Middle & 8 & Brickmakers & Traders & Scribes \\
-Rich & 9 & Horse Breeders & Town Merchants & Landed Gentry \\
-Rich & 10 & Grain Traders & Physicians & High Priests \\
-Rich & 11 & Large Farm Owners & Village Leaders & Noble Representatives \\
-Rich & 12 & Wine Makers & Grain Exporters & Regional Officials \\
-\hline
-\caption{Rural Village - Family Status/Family Wealth}
-\label{table:rural-status}
-\end{longtable}
-
-% Rural Village - Hardships
-\begin{longtable}{p{0.1\textwidth}p{0.9\textwidth}}
-\hline
-\textbf{1d20} & \textbf{Hardship} \\
-\hline
-1 & A village sickness weakened you. -1 Constitution \\
-2 & A farming accident left you hobbled. -1 Dexterity \\
-3 & Outsiders' food and drink upset your system. -1 Constitution in foreign areas \\
-4 & You struggle with advanced tools. Roll 1d6 instead of 2d6 for Craft checks \\
-5 & Endless farming hours left little time for study. -1 Intelligence \\
-6 & A meager diet stunted your intellect. -1 Intelligence \\
-7 & A famine weakened your body. -1 Strength \\
-8 & Manual labor sapped your energy. -1 Constitution \\
-9 & You are always recognized as a villager. Disguises fail quickly \\
-10 & Foreign machinery confuses you. -1 Dexterity when operating machines \\
-11 & You feel out of place in cities. -1 Willpower in urban areas \\
-12 & Naivety leaves you prone to mistakes. -1 Wisdom \\
-13 & Always weaker than others, you lack strength. -1 Strength \\
-14 & A childhood fight left you scarred. -1 Willpower \\
-15 & You're clumsy with carts and wagons. Roll 1d6 instead of 2d6 for Drive checks \\
-16 & A feud with a neighboring village marks you for death. \\
-17 & Your senses have dulled from village life. -1 Wisdom \\
-18 & A traumatic event drained your vitality. Lose 3 attribute points of your choice \\
-19 & Old tales of spirits leave you easily unnerved. -2 to saves against mental effects \\
-20 & Foreign tools and gadgets confuse you. -2 to saves against magical item effects \\
-\hline
-\caption{Rural Village - Hardships}
-\label{table:rural-hardships}
-\end{longtable}
-
-% Large City - Family Status/Family Wealth
-\begin{longtable}{ccccc}
-\hline
-& \textbf{Wealth(1d12)} & \textbf{Low(1-2)} & \textbf{Middle(3-4)} & \textbf{High(5-6)} \\
-\hline
-Poor & 1 & Street Urchins & Day Laborers & Skilled Workers \\
-Poor & 2 & Prostitutes & Market Vendors & Minor Clergy \\
-Poor & 3 & Pickpockets & Entertainers & Guild Apprentices \\
-Poor & 4 & Beggars & Artisans & Scholars \\
-Middle & 5 & Petty Criminals & Shopkeepers & Guild Masters \\
-Middle & 6 & Dockhands & Bakers & Respected Clergy \\
-Middle & 7 & Guards & Local Traders & Town Officials \\
-Middle & 8 & Street Performers & Scribes & Wealthy Merchants \\
-Rich & 9 & Courtesans & Guild Leaders & City Governors \\
-Rich & 10 & Moneylenders & Physicians & High Priests \\
-Rich & 11 & Landed Nobility & Trade Magnates & Council Members \\
-Rich & 12 & Spymasters & Foreign Diplomats & Royalty \\
-\hline
-\caption{Large City - Family Status/Family Wealth}
-\label{table:large-city-status}
-\end{longtable}
-
-% Large City - Hardships
-\begin{longtable}{p{0.1\textwidth}p{0.9\textwidth}}
-\hline
-\textbf{1d20} & \textbf{Hardship} \\
-\hline
-1 & A childhood illness left you frail. -1 Constitution \\
-2 & An industrial accident left you limping. -1 Dexterity \\
-3 & Pollution strains your stamina. -1 Constitution in natural settings \\
-4 & Advanced systems confuse you. Roll 1d6 instead of 2d6 for Program checks \\
-5 & Grueling factory work stunted your learning. -1 Intelligence \\
-6 & Childhood poverty hindered your education. -1 Intelligence \\
-7 & Malnutrition from slum life weakened your body. -1 Strength \\
-8 & Exhausting work left you physically drained. -1 Constitution \\
-9 & You are easily identified as a city native. Disguises fail quickly \\
-10 & You struggle with rural environments. -1 Dexterity in non-urban areas \\
-11 & You feel awkward in rural social settings. -1 Willpower in villages \\
-12 & Quick decisions in new settings often fail you. -1 Wisdom \\
-13 & You were always outmatched by your peers. -1 Strength \\
-14 & A violent encounter left you visibly scarred. -1 Willpower \\
-15 & You're terrible with vehicles. Roll 1d6 instead of 2d6 for Drive checks \\
-16 & A gang rivalry makes you a target for violence. \\
-17 & City noise has dulled your senses. -1 Wisdom \\
-18 & A psychic event drained your vitality. Lose 3 attribute points of your choice \\
-19 & Advanced tech leaves you nervous. -2 to saves against psionics \\
-20 & Complex tools baffle you. -2 to saves against foreign technology effects \\
-\hline
-\caption{Large City - Hardships}
-\label{table:large-city-hardships}
-\end{longtable}
-
-
-\section{Careers} % (fold)
-\label{sec:careers}
-Characters start off at the age of 14. Then they grow through the character generation game. Each career table presents
-the various throws needed for character generation. \textbf{Note that the total sum of a character's skill can never
-exceed the INT characteristic plus 6.}
-
-\section{Career procedure}
 \begin{enumerate}
+    \item Personal Development
+    \item Mishap
+    \item Nothing Happens
+    \item Nothing Happens
+    \item Change Career
+    \item Benefit
+\end{enumerate}
+\begin{longtable}{p{0.15\textwidth}p{0.85\textwidth}}
+    \hline
+    \textbf{1d6} & \textbf{Personal development} \\
+    \hline
+    1 & $+1$ Any Stat \\ 
+    2 & $+2$ Physical \\ 
+    3 & $+2$ Physical \\ 
+    4 & $+2$ Mental \\ 
+    5 & $+2$ Mental \\ 
+    6 & $+1$ Any skill \\
+    \hline
+\end{longtable}
 
-  \item \textbf{Choose a Career}: Try to enteer a career. If you succeed, begin the career. If you fail, roll a 2d6 and
-  pick a career accordingly to the roll. \emph{($1-2$, Vagabond, $3-11$ Commoner, $11$ Noble)}.
+\begin{longtable}{l l}
+\hline
+\textbf{Career} & Skills \\
+    \textbf{Artisan} & Connect, Liaison, Craft, Exert, Know, Trade \\
+    \textbf{Barbarian} & Any Combat, Exert, Lead, Notice, Survive, Sneak \\
+    \textbf{Carter} & Craft, Connect, Exert, Notice, Ride, Trade \\
+    \textbf{Courtesan} & Liaison, Deception, Perform, Notice, Trade, Connect \\
+    \textbf{Criminal} & Admin, Sneak, Deception, Exert, Liaison, Trade \\
+    \textbf{Hunter} & Shoot, Investigation, Survive, Animals, Exert, Sneak \\
+    \textbf{Laborer} & Work, Admin, Exert, Craft, Liaison, Connect \\
+    \textbf{Merchant} & Trade, Connect, Liaison, Notice, Craft, Admin \\
+    \textbf{Noble} & Admin, Connect, Liaison, Any Combat, Deception, Lead \\
+    \textbf{Nomad} & Trade, Connect, Any Combat, Exert, Notice, Survive \\
+    \textbf{Peasant} & Work, Exert, Notice, Craft, Trade, Animals \\
+    \textbf{Performer} & Perform, Connect, Liaison, Exert, Sneak, Connect \\
+    \textbf{Physician} & Heal, Admin, Craft, Admin, Know, Trade \\
+    \textbf{Priest} & Heal, Pray, Lead, Admin, Liaison, Connect \\ 
+    \textbf{Sailor} & Sail, Perform, Notice, Exert, Craft, Connect \\ 
+    \textbf{Scholar} & Know, Craft, Perform, Heal, Notice, Investigation \\
+    \textbf{Slave} & Admin, Any Combat, Any Skill, Liaison, Survive, Exert \\ 
+    \textbf{Soldier} & Any Combat, Any Combat, Lead, Exert, Sneak, Connect \\ 
+    \textbf{Thug} & Any Combat, Punch, Deception, Exert, Survive, Sneak \\
+    \textbf{Wanderer} & Perform, Survive, Sneak, Animal, Any Combat, Investigation \\
+\hline
+\end{longtable}
 
-\item \textbf{Basic Training}: You gain Skill-0 in all six Service Skills of your career.
-
-\item \textbf{Resolve your term of service}:
-  \begin{enumerate}
-    \item \textbf{Survival check}: If you fail, roll on the mishap table.
-\item \textbf{Skill Table}: Roll once on one of the skill tables associated with that carrer to gain one level of a skill. Acquired skill levels are cumulative. On your first term only, roll twice and gain two skills. Note that you may roll on the Advanced Education table if your INT is over 12. 
-\item \textbf{Advancement check}: Make and Advancement check. If you succeed, you gain one rank and gain an additional skill roll on any table.
-
-\item \textbf{Rank skill}: If promoted, some ranks have skills associated with that rank. Gain that skill rank, if eligible.
-\item \textbf{Aging}: If your character has completed their fourth term or later, (ages 30 and up).%, check for aging see Table~\ref{tab:aging}.
+If you are over $30$ roll $2d6-$ number of events
 
 \begin{longtable}{p{0.15\textwidth} p{0.75\textwidth}} % Adjusted column widths
 \hline
@@ -333,268 +211,6 @@ exceed the INT characteristic plus 6.}
 \hline
 \caption{Table for aging effects}
 \label{tab:aging}
-\end{longtable}
-  \item \textbf{Events}: Roll 2d6 on the relevant Events table.
-
-\item \textbf{Re-Enlistment}: Make a check for Re-Enlistment If you fail, you either finish your career and go to Step-4, or
-    you can attempt to re-enlist in a different career(When you attempt the change add a malus equal to $-1$ times the
-    previous career terms. You do not gain Skill-$0$ in the service skills.). If you succeed, you may choose to re-enlist, or you can voluntarily terminate your career. 
-
-\item \textbf{Additional term of service}: You must retire after 7 terms of service unless you throw a natural ``12'', in which case, you must retire at the end of the 8th term of service. 
-\end{enumerate}
-  \item \textbf{Muster out}: Once you complete your career, roll for Mustering out benefits.  Each term of service you completed allows you one roll on one of the two Mustering out tables: Gold or Material. You gain one bonus roll if you are rank 4, two if you are rank 5, or three if you are rank 6. Character of rank 5 and 6 get a +1 bonus when rolling on the Material benefits table. No more than 3 rolls may be made on the Gold Benefit table.
-\end{enumerate}
-\subsection{Barbarian}
-\textbf{Qualification}: STR $7+$
-\textbf{Survival}: TGH $7+$
-\text{Advancement}: STR $6+$
-\textbf{Re-Enlistment}: $6+$ 
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.03\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Survive & Craft & Craft & 10 & Weapon \\
-2 & +2 Physical & Sneak & Heal & Heal & 20 & Armor \\
-3 & +2 Physical & Shoot & Lead & Lead & 30 & +1 TGH \\
-4 & +2 Mental & Recon & Liaison & Liaison & 50 & Weapon \\
-5 & Exert & Stab & Ride & Survive & 100 & Hound \\
-6 & Any skill & Shoot & Survive & Admin & 150 & Mount \\
-7 & - & - & - & - & 500 & Retainer \\
-\hline
-\caption{Barbarian Development, Skills, and Muster Out Benefits}
-\end{longtable}
-
-
-\subsection{Noble}
-\textbf{Qualification}: 
-\textbf{Survival}: WIL $5+$
-\text{Advancement}:  $8+$
-\textbf{Re-Enlistment}: $6+$ 
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.05\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Connect & Perform & Heal & 100 & Ally \\
-2 & +2 Physical & Ride & Animals & Lead & 200 & Armor \\
-3 & +2 Mental & Admin & Liaison & Investigation & 400 & Weapon \\
-4 & +2 Mental & Sail & Admin & Sail & 600 & Steed \\
-5 & Connect & Deception & Any Combat & Know & 600 & Hound \\
-6 & Any skill & Connect & Any Combat & Pray & 1000 & Retainer \\
-7 & - & - & - & - & 2000 & Holding \\
-\hline
-\caption{Noble Development, Skills, and Muster Out Benefits}
-\end{longtable}
-\subsection{Commoner}
-\textbf{Qualification}: 
-\textbf{Survival}: TGH $3+$
-\text{Advancement}:  $10+$
-\textbf{Re-Enlistment}: $5+$
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.05\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Animals & Work & Heal & 10 & +1 STR \\
-2 & +2 Physical & Riding & Liaison & Lead & 10 & Hound \\
-3 & +2 Physical & Craft & Connect & Liaison & 20 & Ally \\
-4 & +2 Mental & Connect & Perform & Admin & 50 & Weapon \\
-5 & Connect & Exert & Sail & Animals & 100 & Mount \\
-6 & Any skill & Work & Animals & Pray & 100 & Freehold \\
-7 & - & - & - & - & 200 & Freehold \\
-\hline
-\caption{Commoner Development, Skills, and Muster Out Benefits}
-\end{longtable}
-
-\subsection{Pirate}
-\textbf{Qualification}: STR $7+$
-\textbf{Survival}: DEX $7+$
-\text{Advancement}: INT $6+$
-\textbf{Re-Enlistment}: $5+$
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.05\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Connect & Exert & Heal & 20 & Weapon \\
-2 & +2 Physical & Sail & Craft & Lead & 50 & Armor \\
-3 & +2 Physical & Shoot & Deception & Perform & 100 & Weapon \\
-4 & +2 Mental & Stab & Sail & Admin & 200 & +1 INT \\
-5 & Any Combat & Sneak & Shoot & Know & 400 & Ally \\
-6 & Any skill & Recon & Know & Investigation & 500 & +1 DEX \\
-7 & - & - & - & - & 1000 & Ship \\
-\hline
-\caption{Pirate Development, Skills, and Muster Out Benefits}
-\end{longtable}
-
-
-
-\subsection{Priest}
-\textbf{Qualification}: INT $5+$
-\textbf{Survival}: WIL $5+$
-\text{Advancement}: INT $8+$
-\textbf{Re-Enlistment}: $6+$
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.05\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Pray & Pray & Lead & 10 & +1 WIL \\
-2 & +2 Physical & Liaison & Survive & Deception & 10 & Holy Symbol \\
-3 & +2 Mental & Lead & Craft & Know & 20 & +1 INT \\
-4 & +2 Mental & Admin & Know & Heal & 50 & +1 INT \\
-5 & Connect & Connect & Animals & Investigation & 50 & Ally \\
-6 & Any skill & Know & Ride & Sorcery & 100 & Magic Item \\
-7 & - & - & - & - & 200 & Holding \\
-\hline
-\caption{Priest Development, Skills, and Muster Out Benefits}
-\end{longtable}
-
-\subsection{Rogue}
-\textbf{Qualification}: DEX $6+$
-\textbf{Survival}: DEX $5+$
-\text{Advancement}: INT $8+$
-\textbf{Re-Enlistment}: $4+$
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.05\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Connect & Shoot & Survive & 20 & Thieves' tools \\
-2 & +2 Physical & Craft & Craft & Know & 20 & Thieves' tools \\
-3 & +2 Physical & Deception & Stab & Work & 100 & +1 INT \\
-4 & +2 Mental & Sneak & Admin & Heal & 200 & Weapon \\
-5 & Stab & Liaison & Recon & Investigation & 400 & Ally \\
-6 & Any skill & Recon & Deception & Sorcery & 400 & Ally \\
-7 & - & - & - & - & 1000 & Magic Item \\
-\hline
-\caption{Rogue Development, Skills, and Muster Out Benefits}
-\end{longtable}
-
-\subsection{Sailor}
-\textbf{Qualification}: TGH $6+$
-\textbf{Survival}: DEX $6+$
-\text{Advancement}: INT $7+$
-\textbf{Re-Enlistment}: $4+$
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.05\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Craft & Work & Admin & 10 & Weapon \\
-2 & +2 Physical & Sail & Craft & Perform & 50 & Weapon \\
-3 & +2 Physical & Shoot & Stab & Pray & 50 & +1 INT \\
-4 & +2 Mental & Stab & Connect & Heal & 100 & Magic Item \\
-5 & Exert & Exert & Sail & Survive & 100 & Ally \\
-6 & Any skill & Recon & Work & Work & 200 & Ally \\
-7 & - & - & - & - & 200 & Ship \\
-\hline
-\caption{Sailor Development, Skills, and Muster Out Benefits}
-\end{longtable}
-
-\subsection{Scholar}
-\textbf{Qualification}: INT $6+$
-\textbf{Survival}: TGH $4+$
-\text{Advancement}: STR $9+$
-\textbf{Re-Enlistment}: $5+$
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.05\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Admin & Alchemy & Pray & 10 & +1 INT \\
-2 & +2 Physical & Know & Admin & Perform & 50 & +2 INT \\
-3 & +2 Mental & Heal & Heal & Magic & 50 & Ally \\
-4 & +2 Mental & Liaison & Know & Heal & 100 & Instruments \\
-5 & Connect & Investigation & Craft & Know & 100 & Holding \\
-6 & Any skill & Know & Carousing & Work & 200 & Instruments \\
-7 & - & - & - & - & 250 & Magic Item \\
-\hline
-\caption{Scholar Development, Skills, and Muster Out Benefits}
-\end{longtable}
-
-\subsection{Shaman}
-\textbf{Qualification}: INT $9+$
-\textbf{Survival}: WIL $7+$
-\text{Advancement}: INT $6+$
-\textbf{Re-Enlistment}: $6+$
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.05\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Pray & Shoot & Heal & 10 & Weapon \\
-2 & +2 Physical & Magic & Artifice & Perform & 10 & Spell \\
-3 & +2 Mental & Survive & Recon & Know & 20 & Focus \\
-4 & +2 Mental & Know & Ride & Know & 20 & Magic Item \\
-5 & Connect & Heal & Liaison & Pray & 50 & Spell \\
-6 & Any skill & Animals & Lead & Magic & 50 & Mount \\
-7 & - & - & - & - & 100 & Talisman \\
-\hline
-\caption{Shaman Development, Skills, and Muster Out Benefits}
-\end{longtable}
-
-\subsection{Soldier}
-\textbf{Qualification}: TGH $8+$
-\textbf{Survival}: STR $6+$
-\text{Advancement}: INT $7+$
-\textbf{Re-Enlistment}: $6+$
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.05\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Craft & Craft & Heal & 10 & Weapon \\
-2 & +2 Physical & Shoot & Lead & Know & 50 & Hound \\
-3 & +2 Physical & Shoot & Sneak & Work & 50 & Weapon \\
-4 & +2 Mental & Stab & Liaison & Lead & 100 & Armor \\
-5 & Exert & Recon & Survive & Perform & 100 & Mount \\
-6 & Any skill & Ride & Shoot & Know & 200 & Armor \\
-7 & - & - & - & - & 200 & Steed \\
-\hline
-\caption{Soldier Development, Skills, and Muster Out Benefits}
-\end{longtable}
-
-\section{Sorcerer} 
-\textbf{Qualification}: INT $9+$
-\textbf{Survival}: WIL $8+$
-\text{Advancement}: INT $5+$
-\textbf{Re-Enlistment}: $6+$
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.05\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Know & Pray & Know & 20 & +1 INT \\
-2 & +2 Physical & Magic & Deception & Pray & 50 & Magic \\
-3 & +2 Mental & Deception & Perform & Lead & 50 & Magic \\
-4 & +2 Mental & Investigation & Heal & Work & 100 & Familiar \\
-5 & Deception & Know & Liaison & Heal & 100 & Magic \\
-6 & Any skill & Magic & Craft & Know & 200 & Magic Item \\
-7 & - & - & - & - & 300 & Talisman \\
-\hline
-\caption{Sorcerer Development, Skills, and Muster Out Benefits}
-\end{longtable}
-\section{Wanderer}
-\textbf{Qualification}: 
-\textbf{Survival}: TGH $7+$
-\text{Advancement}: INT $6+$
-\textbf{Re-Enlistment}: $6+$
-\subsubsection{Skills and Muster Out Benefits}
-\begin{longtable}{p{0.05\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
-\hline
-\textbf{1d6} & \textbf{Personal Dev.} & \textbf{Service Skills} & \textbf{Specialist Skills} & \textbf{Advanced Education} & \textbf{Money (Gold)} & \textbf{Material Benefits} \\
-\hline
-1 & +1 Any Stat & Survive & Sail & Perform & 10 & Weapon \\
-2 & +2 Physical & Sneak & Craft & Work & 20 & Hound \\
-3 & +2 Physical & Stab & Perform & Lead & 30 & Ally \\
-4 & +2 Mental & Ride & Animals & Know & 30 & Weapon \\
-5 & Perform & Sneak & Athletics & Heal & 100 & Ally \\
-6 & Any skill & Recon & Deception & Know & 100 & Mount \\
-7 & - & - & - & - & 200 & Mount \\
-\hline
-\caption{Wanderer Development, Skills, and Muster Out Benefits}
 \end{longtable}
 
 \end{document}
